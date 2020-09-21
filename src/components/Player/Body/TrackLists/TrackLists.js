@@ -12,7 +12,7 @@ import {
 import MusicIcon from "@material-ui/icons/MusicNoteOutlined";
 
 function TrackLists({ track }) {
-  const [{}, dispatch] = CTX();
+  const [{ _ = {} }, dispatch] = CTX();
   const classes = trackListsStyle();
   const handleClickItem = () => {
     dispatch({
