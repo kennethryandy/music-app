@@ -55,6 +55,7 @@ function App() {
           dispatch({ type: "SET_PLAYLIST", payload: playlist })
         );
     }
+    //eslint-disable-next-line
   }, [token]);
   return (
     <ThemeProvider theme={theme}>
